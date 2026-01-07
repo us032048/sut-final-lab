@@ -24,4 +24,6 @@ func TestSalary(t *testing.T) {
 
 		g.Expect(err.Error()).To(Equal("Salary must be between 15000 and 200000"))
 	})
-}
+} 
+
+
